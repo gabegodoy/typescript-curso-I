@@ -8,7 +8,7 @@
     "server": "lite-server --baseDir=dist",
     "start": "concurrently \"npm run watch\" \"npm run server\"",
     "compile": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc --watch"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "concurrently": "^6.0.0",
     "lite-server": "^2.6.1",
     "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "16": "^0.0.2"
   }
 }
