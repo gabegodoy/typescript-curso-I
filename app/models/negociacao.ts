@@ -1,7 +1,10 @@
+import { Negociacoes } from "./negociacoes.js";
+
 export class Negociacao {
     private _data :Date ;
     private _quantidade :number;
     private _valor :number;
+    private negociacoes = new Negociacoes;
 
     constructor(data: Date, quantidade: number, valor: number) {
         this._data = data;

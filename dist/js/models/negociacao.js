@@ -1,5 +1,7 @@
+import { Negociacoes } from "./negociacoes.js";
 export class Negociacao {
     constructor(data, quantidade, valor) {
+        this.negociacoes = new Negociacoes;
         this._data = data;
         this._quantidade = quantidade;
         this._valor = valor;
