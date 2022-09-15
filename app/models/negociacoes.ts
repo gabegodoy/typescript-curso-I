@@ -6,11 +6,11 @@ export class Negociacoes {
   //Negociacao[] === Array<Negociacao>
 
 
-  adiciona(negociacao: Negociacao){
+  public adiciona(negociacao: Negociacao){
     this.negociacoes.push(negociacao)
   }
 
-  lista(): readonly Negociacao[] {
+  public lista(): readonly Negociacao[] {
 
   // lista(): ReadonlyArray<Negociacao> === lista(): readonly Negociacao[]
     
